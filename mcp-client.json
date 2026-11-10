@@ -1,0 +1,17 @@
+{
+  "client_id": "https://rafaelgf86.github.io/tableau-mcp-auth/mcp-client.json",
+  "client_name": "Agente Tableau POC - Java",
+  "client_uri": "https://rafaelgf86.github.io/tableau-mcp-auth",
+  "redirect_uris": [
+    "http://127.0.0.1:8765/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "application_type": "native"
+}
